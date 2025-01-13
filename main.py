@@ -1,5 +1,6 @@
-from bs4 import BeautifulSoup
 import pprint
+
+from bs4 import BeautifulSoup
 
 from src.scrape import html_page_one_parser, html_page_two_parser, create_custom_hn, sort_stories_by_vote
 
@@ -12,8 +13,8 @@ def main() -> None:
     links_two: list = soup_two.select(".titleline > a")
     subtext_two: list = soup_two.select(".subtext")
 
-    both_pages = create_custom_hn(links, subtext) + create_custom_hn(links_two, subtext_two)
-    both_pages = sort_stories_by_vote(both_pages)
+    both_pages: list = create_custom_hn(links, subtext) + create_custom_hn(links_two, subtext_two)
+    both_pages: list = sort_stories_by_vote(both_pages)
     pprint.pprint(both_pages)
 
 
