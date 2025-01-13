@@ -1,12 +1,12 @@
 # 🐍 PyScrappie
-___
+
 
 **Version:** 1.0.0
 
 PyScrappie Version 1.0.0 is a web scrapper that scrapes https://news.ycombinator.com/news. This is a project created by 
 following the tutorial on ZeroToMastery: Python For Beginners course, PyScrappie utilizes **beautifulsoup4** to parse and 
 organize data.
-___
+
 ## Table of Contents
 1. [Installation](#installation)
 2. [Usage](#Usage)
