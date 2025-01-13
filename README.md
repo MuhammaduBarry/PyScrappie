@@ -12,7 +12,7 @@ ___
 2. [Usage](#Usage)
 3. [Updates](#Updates)
 4. [Contributing](#Contributing)
-___
+
 ## Installation
 1. Clone the repository:
     - HTTPS:
@@ -29,7 +29,7 @@ ___
     ```bash
     pip or pip3 install -r requirements.txt 
     ```
-___
+
 ## Usage
 To run current version, use the following command:
 ```bash
@@ -43,12 +43,12 @@ chmod +x main.sh add_requirements.sh test.sh
 ./main.sh
 ```
 Current usage scrapes the first two pages of the news section and ranks them based on votes > 100.
-___
+
 ## Updates
 
 I have big plans for this repository, stay tune for next versions.
 **Upcoming Version:** 2.0.0
-___
+
 ## Contributing
 1. Fork the repository.
 2. Create a new branch: `git checkout -b feature-name`.
